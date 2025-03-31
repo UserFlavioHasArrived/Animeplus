@@ -24,6 +24,11 @@ public class EpisodioResource {
         return episodioService.getEpisodioById(id);
     }
 
+    @PutMapping
+    public Episodio updateEpisodio(@RequestBody Episodio episodio) {
+        return episodioService.updateEpisodio(episodio);
+    }
+
     @PostMapping
     public Episodio saveEpisodio(@RequestBody Episodio episodio) {
         return episodioService.saveEpisodio(episodio);

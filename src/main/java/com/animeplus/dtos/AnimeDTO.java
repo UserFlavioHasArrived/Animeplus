@@ -8,7 +8,7 @@ import lombok.NoArgsConstructor;
 @AllArgsConstructor
 @NoArgsConstructor
 public class AnimeDTO {
-    private Integer id;
+    private Long id;
     private String nome;
     private String genero;
     private String anoLancamento;

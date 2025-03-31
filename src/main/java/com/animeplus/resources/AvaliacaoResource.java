@@ -29,6 +29,11 @@ public class AvaliacaoResource {
         return avaliacaoService.saveAvaliacao(avaliacao);
     }
 
+    @PutMapping
+    public Avaliacao updateAvaliacao(@RequestBody Avaliacao avaliacao) {
+        return avaliacaoService.updateAvaliacao(avaliacao);
+    }
+
     @DeleteMapping("/{id}")
     public void deleteAvaliacao(@PathVariable Integer id) {
         avaliacaoService.deleteAvaliacao(id);

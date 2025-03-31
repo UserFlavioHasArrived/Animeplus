@@ -28,4 +28,9 @@ public class AvaliacaoService {
     public void deleteAvaliacao(Integer id) {
         avaliacaoRepository.deleteById(id);
     }
+
+    public Avaliacao updateAvaliacao(Avaliacao avaliacao) {
+        avaliacaoRepository.save(avaliacao);
+        return avaliacao;
+    }
 }

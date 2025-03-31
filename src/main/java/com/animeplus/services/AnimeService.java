@@ -28,4 +28,9 @@ public class AnimeService {
     public void deleteAnime(Integer id) {
         animeRepository.deleteById(id);
     }
+
+    public Anime updateAnime(Anime anime) {
+            animeRepository.save(anime);
+            return anime;
+    }
 }

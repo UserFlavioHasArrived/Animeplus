@@ -33,4 +33,8 @@ public class EpisodioService {
     public void deleteEpisodio(Integer id) {
         episodioRepository.deleteById(id);
     }
+
+    public Episodio updateEpisodio(Episodio episodio) { episodioRepository.save(episodio);
+        return episodio;
+    }
 }

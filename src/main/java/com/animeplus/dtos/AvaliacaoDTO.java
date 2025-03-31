@@ -8,9 +8,9 @@ import lombok.NoArgsConstructor;
 @AllArgsConstructor
 @NoArgsConstructor
 public class AvaliacaoDTO {
-    private Integer id;
-    private Integer animeId;
-    private Integer episodioId;
+    private Long id;
+    private Long animeId;
+    private Long episodioId;
     private Double notaUsuario;
     private String comentario;
 }

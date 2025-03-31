@@ -30,6 +30,11 @@ public class AnimeResource {
         return animeService.saveAnime(anime);
     }
 
+    @PutMapping
+    public Anime updateAnime(@RequestBody Anime anime) {
+        return animeService.updateAnime(anime);
+    }
+
     @DeleteMapping("/{id}")
     public void deleteAnime(@PathVariable Integer id) {
         animeService.deleteAnime(id);

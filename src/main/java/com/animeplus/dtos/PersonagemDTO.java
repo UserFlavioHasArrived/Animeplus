@@ -9,8 +9,8 @@ import lombok.NoArgsConstructor;
 @AllArgsConstructor
 @NoArgsConstructor
 public class PersonagemDTO {
-    private Integer id;
-    private Integer animeId;
+    private Long id;
+    private Long animeId;
     private String nomePersonagem;
     private String descricao;
     private String tipo;

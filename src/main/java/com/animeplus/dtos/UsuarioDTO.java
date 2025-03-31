@@ -10,7 +10,7 @@ import java.util.Date;
 @AllArgsConstructor
 @NoArgsConstructor
 public class UsuarioDTO {
-    private Integer id;
+    private Long id;
     private String nomeUsuario;
     private String email;
     private String senha;

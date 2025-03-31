@@ -29,6 +29,11 @@ public class PersonagemResource {
         return personagemService.savePersonagem(personagem);
     }
 
+    @PutMapping
+    public Personagem updatePersonagem(@RequestBody Personagem personagem) {
+        return personagemService.updatePersonagem(personagem);
+    }
+
     @DeleteMapping("/{id}")
     public void deletePersonagem(@PathVariable Integer id) {
         personagemService.deletePersonagem(id);

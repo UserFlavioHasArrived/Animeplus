@@ -9,9 +9,9 @@ import lombok.NoArgsConstructor;
 @AllArgsConstructor
 @NoArgsConstructor
 public class EpisodioDTO {
-    private Integer id;
-    private Integer animeId;
-    private Integer numero;
+    private Long id;
+    private Long animeId;
+    private Long numero;
     private String tituloEpisodio;
     private String dataLancamento;
 }

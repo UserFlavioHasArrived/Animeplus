@@ -28,4 +28,8 @@ public class PersonagemService {
     public void deletePersonagem(Integer id) {
         personagemRepository.deleteById(id);
     }
+
+    public Personagem updatePersonagem(Personagem personagem) {personagemRepository.save(personagem);
+        return personagem;
+    }
 }

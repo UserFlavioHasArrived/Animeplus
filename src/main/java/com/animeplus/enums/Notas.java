@@ -1,7 +1,7 @@
 package com.animeplus.enums;
 
 public enum Notas {
-    UM_ESTRELA,
+    UMA_ESTRELA,
     DUAS_ESTRELAS,
     TRES_ESTRELAS,
     QUATRO_ESTRELAS,
